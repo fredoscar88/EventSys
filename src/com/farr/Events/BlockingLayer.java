@@ -3,11 +3,11 @@ package com.farr.Events;
 import java.awt.Graphics;
 import java.util.List;
 
-public interface Layer {
+public interface BlockingLayer {
 	
 	public void render(Graphics g);
 	
-	public void update();
+	public boolean update();
 
 	public void onEvent(Event e);
 	
