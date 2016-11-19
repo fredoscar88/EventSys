@@ -9,7 +9,6 @@ public class KeyActionEvent extends Event {
 	public KeyActionEvent(Event.Type type, int keyCode) {
 		super(type);
 		this.keyCode = keyCode;
-		
 	}
 	
 	public int getKeyCode() {

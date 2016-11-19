@@ -10,6 +10,4 @@ public class KeyPressedEvent extends KeyActionEvent {
 
 	}
 
-	
-	
 }

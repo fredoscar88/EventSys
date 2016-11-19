@@ -8,9 +8,10 @@ public class Event {
 		MOUSE_RELEASED,
 		KEY_PRESSED,
 		KEY_RELEASED, 
+		KEY_TYPED,
 		UPDATE, 
 		FOCUS_LOST,
-		FOCUS_GAINED
+		FOCUS_GAINED,
 	}
 	
 	private Type type;
