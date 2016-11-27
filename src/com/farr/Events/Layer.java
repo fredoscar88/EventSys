@@ -11,6 +11,7 @@ public interface Layer {
 
 	public void onEvent(Event e);
 	
+	//TODO change implementation of Layer and BlockingLayer to figure out how we really want init used
 	public void init(List<BlockingLayer> l);
-		
+	
 }
