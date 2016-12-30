@@ -39,4 +39,8 @@ public class EventDispatcher {
 		event.handled = true;
 	}
 	
+	public boolean isHandled() {
+		return event.handled;
+	}
+	
 }
